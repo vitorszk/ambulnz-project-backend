@@ -27,7 +27,7 @@
   },
   "scripts": {
     "dev": "ts-node-dev ./src/index.ts",
-    "start": "tsc && node ./build/index.js"
+    "start": "tsc && node ./build/index"
   },
   "author": "",
   "license": "ISC"
