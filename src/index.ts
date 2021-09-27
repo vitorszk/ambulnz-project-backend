@@ -13,6 +13,6 @@ app.use("/api", apiRouter)
 
 const PORT = process.env.PORT || 3003
 
-app.listen(PORT, () => {
-   console.log(`Server running at ${PORT}`)
-})
+app.listen(process.env.PORT || 3000, function(this: any){
+   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+ });
