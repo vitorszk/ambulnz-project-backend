@@ -4,7 +4,6 @@ import dotenv from "dotenv"
 
 dotenv.config()
 
-const PORT = process.env.PORT || 3306
 
 export abstract class BaseDatabase {
     private static connection: Knex | null
@@ -18,7 +17,7 @@ export abstract class BaseDatabase {
                     user: process.env.DB_USER,
                     password: process.env.DB_PASS,
                     database: process.env.DB_NAME,
-                    port: PORT as number,
+                    port: 3306,
                     multipleStatements: true
                 }
             })
