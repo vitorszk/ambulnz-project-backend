@@ -13,7 +13,7 @@ app.use(express_1.default.json());
 app.use((0, cors_1.default)());
 app.use("/api", apiRouter_1.apiRouter);
 const PORT = process.env.PORT || 3003;
-app.listen(PORT, () => {
-    console.log(`Server running at ${PORT}`);
+app.listen(process.env.PORT || 3003, function () {
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
 //# sourceMappingURL=index.js.map
