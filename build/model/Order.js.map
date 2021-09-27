@@ -1,0 +1,1 @@
+{"version":3,"file":"Order.js","sourceRoot":"","sources":["../../src/model/Order.ts"],"names":[],"mappings":";;;AAIA,MAAa,KAAK;IACd,YACY,EAAU,EACV,KAAe;QADf,OAAE,GAAF,EAAE,CAAQ;QACV,UAAK,GAAL,KAAK,CAAU;IACxB,CAAC;IAEG,KAAK;QACR,OAAO,IAAI,CAAC,EAAE,CAAA;IAClB,CAAC;IAEM,QAAQ;QACX,OAAO,IAAI,CAAC,KAAK,CAAA;IACrB,CAAC;CACJ;AAbD,sBAaC"}
